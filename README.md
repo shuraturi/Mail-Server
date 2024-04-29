@@ -9,8 +9,6 @@ A private mail server configured with postfix, dovecot, imap, amavisd, spamassas
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
