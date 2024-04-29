@@ -24,7 +24,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 * ![Postfix Logo]([https://upload.wikimedia.org/wikipedia/commons/3/35/Postfix-logo.svg](https://upload.wikimedia.org/wikipedia/commons/3/36/Postfix-logo.svg))
 * ![Dovecot Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Dovecot_logo.svg/1200px-Dovecot_logo.svg.png)
-* [![Vue][Vue.js]][Vue-url]
+* <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Dovecot_logo.svg/1200px-Dovecot_logo.svg.png" alt="Dovecot Logo" width="200">
 * [![Angular][Angular.io]][Angular-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
 * [![Laravel][Laravel.com]][Laravel-url]
