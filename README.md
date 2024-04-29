@@ -23,7 +23,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 ### Built With
 
 * ![Postfix Logo]([https://upload.wikimedia.org/wikipedia/commons/3/35/Postfix-logo.svg](https://upload.wikimedia.org/wikipedia/commons/3/36/Postfix-logo.svg))
-* [![React][React.js]][React-url]
+* ![Dovecot Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Dovecot_logo.svg/1200px-Dovecot_logo.svg.png)
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
