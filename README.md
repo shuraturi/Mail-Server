@@ -20,6 +20,8 @@ A private mail server configured with postfix, dovecot, imap, amavisd, spamassas
 * Amavisd-new
 * ClamAV
 * SpamAssassin
+* IMAP
+* PostgreSQL
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
