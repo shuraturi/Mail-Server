@@ -4,18 +4,8 @@ A private mail server configured with postfix, dovecot, imap, amavisd, spamassas
 <a name="Advanced Mail Server Setup"></a>
 
 <h3 align="center">Private Mail Server</h3>
-
   <p align="center">
      A mail server configured with Postfix, Dovecot, Amavisd-new, SpamAssassin, and ClamAV. This robust infrastructure prioritizes your privacy and security, ensuring every email is shielded from prying eyes and malicious threats.
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
