@@ -22,7 +22,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Postfix Logo](https://upload.wikimedia.org/wikipedia/commons/3/35/Postfix-logo.svg)](https://en.wikipedia.org/wiki/File:Postfix-logo.svg)
+* ![Postfix Logo](https://upload.wikimedia.org/wikipedia/commons/3/35/Postfix-logo.svg)
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
