@@ -13,9 +13,16 @@ A private mail server configured with postfix, dovecot, imap, amavisd, spamassas
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+This email system is built on a foundation of trusted open-source software, meticulously configured to ensure privacy, security, and efficiency. Here's what powers our email service:
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+Postfix: A fast and efficient mail transfer agent that ensures reliable delivery of emails while implementing stringent security measures.
+Amavisd: Acting as a bridge between Postfix and our security tools, Amavisd provides an additional layer of protection by filtering emails for spam and viruses before they reach your inbox.
+Dovecot: Our IMAP server of choice, Dovecot ensures lightning-fast access to your emails while maintaining utmost security and privacy standards.
+IMAP: The IMAP (Internet Message Access Protocol) protocol enables seamless synchronization of emails across devices, ensuring you stay connected wherever you go.
+PostgreSQL: A powerful and reliable relational database management system, PostgreSQL stores and manages email-related data, ensuring data integrity and scalability.
+SpamAssassin: Equipped with advanced heuristics and pattern-matching algorithms, SpamAssassin intelligently filters out spam emails, keeping your inbox clean and clutter-free.
+ClamAV: Our trusted antivirus solution, ClamAV scans email attachments in real-time, safeguarding your inbox against malicious threats.
+With this powerful stack, we deliver an email experience that prioritizes security, reliability, and user privacy. Whether for personal or business use, our email solution is designed to meet your needs with unparalleled performance and peace of mind.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
