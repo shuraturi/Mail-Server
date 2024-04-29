@@ -22,7 +22,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Postfix](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3APostfix-logo.svg&psig=AOvVaw3vJdrMp0A73I4pX-k0ETaO&ust=1714508226874000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMjL5d2e6IUDFQAAAAAdAAAAABAc)][Postfix-url]
+* [![Postfix Logo](https://upload.wikimedia.org/wikipedia/commons/3/35/Postfix-logo.svg)](https://en.wikipedia.org/wiki/File:Postfix-logo.svg)
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
