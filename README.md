@@ -1,50 +1,44 @@
-# Mail-Server
-A private mail server configured with postfix, dovecot, imap, amavisd, spamassasin and clamav.
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a name="Advanced Mail Server Setup"></a>
+# Private Mail Server
+[![DEMO](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=Qn7MipYrbAk)
 
-<h3 align="center">Private Mail Server</h3>
-  <p align="center">
-     A mail server configured with Postfix, Dovecot, Amavisd-new, SpamAssassin, and ClamAV. This robust infrastructure prioritizes your privacy and security, ensuring every email is shielded from prying eyes and malicious threats.
-  </p>
-</div>
+## Project Overview
+A mail server configured with Postfix, Dovecot, Amavisd-new, SpamAssassin, and ClamAV. This robust infrastructure prioritizes your privacy and security, ensuring every email is shielded from prying eyes and malicious threats.
 
-## DEMO
+### Tools Used
+- **Postfix**: Chosen for its reliability and robust performance as a Mail Transfer Agent (MTA).
+- **Dovecot**: Selected for handling IMAP and POP3 services due to its security and ease of use.
+- **Amavisd**, **SpamAssassin**, **ClamAV**: Integrated for email filtering and antivirus protection, providing a comprehensive security solution.
+- **SPF**, **DKIM**, **DMARC**: Implemented for email authentication to enhance email security and prevent spoofing.
 
-[Watch the video](https://youtu.be/Qn7MipYrbAk)
+## Installation
 
-### Built With
+### Operating System
+- **Debian 12**
 
-* Postfix
-* Dovecot
-* Amavisd-new
-* ClamAV
-* SpamAssassin
-* IMAP
-* PostgreSQL
+## Configuration Details
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Overview
+- Ensure that SMTP ports are unblocked by the hosting service
+- A dedicated IP with a good reputation.
 
-<!-- ABOUT THE PROJECT -->
+### Key Configurations
+- **SSL/TLS Setup**: SSL/TLS certificates were generated using Certbot to secure mail transmission.
+- Example configuration files are not provided as this project serves as a showcase.
 
-## Description
+## Security Measures
 
-This email system is built on a foundation of trusted open-source software, meticulously configured to ensure privacy, security, and efficiency. Here's what powers the email service:
+### SSL/TLS Setup
+- SSL/TLS certificates were generated using Certbot to ensure secure mail transmission.
+![alt text](https://i.imgur.com/4FWMvmY.png)
 
-- **Postfix**: A fast and efficient mail transfer agent that ensures reliable delivery of emails while implementing stringent security measures.
-  
-- **Amavisd**: Acting as a bridge between Postfix and our security tools, Amavisd provides an additional layer of protection by filtering emails for spam and viruses before they reach your inbox.
-  
-- **Dovecot**: Our IMAP server of choice, Dovecot ensures lightning-fast access to your emails while maintaining utmost security and privacy standards.
-  
-- **IMAP**: The IMAP (Internet Message Access Protocol) protocol enables seamless synchronization of emails across devices, ensuring you stay connected wherever you go.
-  
-- **PostgreSQL**: A powerful and reliable relational database management system, PostgreSQL stores and manages email-related data, ensuring data integrity and scalability.
-  
-- **SpamAssassin**: Equipped with advanced heuristics and pattern-matching algorithms, SpamAssassin intelligently filters out spam emails, keeping your inbox clean and clutter-free.
-  
-- **ClamAV**: Our trusted antivirus solution, ClamAV scans email attachments in real-time, safeguarding your inbox against malicious threats.
+## SPF, DKIM, and DMARC
+DNS Records
+![alt text](https://i.imgur.com/roH1RL1.png)
 
----
+### Overview
+- **SPF (Sender Policy Framework)**: SPF helps prevent email spoofing by allowing the domain owner to specify which mail servers are permitted to send emails on behalf of their domain.
+- **DKIM (DomainKeys Identified Mail)**: DKIM adds a digital signature to emails, enabling the recipient’s server to verify that the email was indeed sent by the claimed domain and that it hasn't been altered during transit.
+- **DMARC (Domain-based Message Authentication, Reporting, and Conformance)**: DMARC builds on SPF and DKIM, allowing domain owners to define how receiving mail servers should handle emails that fail SPF or DKIM checks. It also provides a way for domain owners to receive reports on email authentication.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+These protocols work together to enhance email security, protect against phishing and spoofing, and improve the overall deliverability of legitimate emails.
+
