@@ -1,5 +1,6 @@
 # Private Mail Server
-[![DEMO](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=Qn7MipYrbAk)
+![Topology](https://i.imgur.com/ki8SKqS.png)
+[Watch The Demo](https://www.youtube.com/watch?v=Qn7MipYrbAk)
 
 ## Project Overview
 A mail server configured with Postfix, Dovecot, Amavisd-new, SpamAssassin, and ClamAV. This robust infrastructure prioritizes your privacy and security, ensuring every email is shielded from prying eyes and malicious threats.
