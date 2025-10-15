@@ -41,5 +41,5 @@ DNS Records
 - **DKIM (DomainKeys Identified Mail)**: DKIM adds a digital signature to emails, enabling the recipient’s server to verify that the email was indeed sent by the claimed domain and that it hasn't been altered during transit.
 - **DMARC (Domain-based Message Authentication, Reporting, and Conformance)**: DMARC builds on SPF and DKIM, allowing domain owners to define how receiving mail servers should handle emails that fail SPF or DKIM checks. It also provides a way for domain owners to receive reports on email authentication.
 
-These protocols work together to enhance email security, protect against phishing and spoofing, and improve the overall deliverability of legitimate emails.
+These protocols work together to enhance email security, protect against phishing, and spoofing, and improve the overall deliverability of legitimate emails.
 
